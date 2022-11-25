@@ -1,0 +1,47 @@
+@font-face { 
+    font-family: MontserratWeb;
+    src: url('../font/Montserrat-VariableFont_wght.ttf');
+} 
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    
+}
+.makise img{
+    float: right;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title {
+    font-family: 'MontserratWeb';
+    font-size:2.5em;
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px
+}
+.about {
+    font-family: 'MontserratWeb';
+    font-size:1.5em;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 20px
+}
+.space{
+    width: 100%;
+    height: 10%;
+    max-width: 100%;
+}
+.icon{
+    margin-left: 10px; 
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar{
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
